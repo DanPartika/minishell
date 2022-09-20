@@ -17,9 +17,6 @@
 #define BLUE "\x1b[34;1m"
 #define DEFAULT "\x1b[0m"
 
-// I pledge my honor that I have abided by the Stevens Honors System.
-// Daniel Partika
-
 static volatile sig_atomic_t interrupted = 1;
 
 void sig_handler(int signo)
